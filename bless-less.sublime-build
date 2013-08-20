@@ -1,6 +1,6 @@
 {
  
-  	"cmd": ["less --update ${file} > ${file_base_name}.css && blessc ${file_base_name}.css -f"],
+  	"cmd": ["less ${file} > ${file_base_name}.css && blessc ${file_base_name}.css -f"],
 	"selector": "source.less",
 	"line_regex": "Line ([0-9]+):",
  
@@ -23,5 +23,5 @@
 	}
  
  
- 
+
 }
