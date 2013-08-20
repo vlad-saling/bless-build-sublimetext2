@@ -1,0 +1,25 @@
+{
+ 
+  	"cmd": ["blessc ${file_base_name}.css -f"],
+	"selector": "source.css, source.css",
+	"line_regex": "Line ([0-9]+):",
+ 
+	"linux":
+	{
+		"shell": "true"
+	},
+ 
+ 
+	"osx":
+	{
+		"path": "/usr/local/bin:$PATH",
+		"shell": "true"
+	},
+ 
+	"windows":
+	{
+		"cmd": ["blessc", "${file_base_name}.css", "-f"],
+		"shell": "true"
+	}
+
+}
