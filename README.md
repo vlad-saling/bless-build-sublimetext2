@@ -1,12 +1,20 @@
-Blessc Build for SublimeText2
+BlessCss Build for SublimeText2
 =============================
 
-Prerequisitions
+Overview
 ----------
-node.js + blessc
+On build Sublime Text calls [Bless](http://blesscss.com/), which checks CSS if number of rules doesn't exceed Internet Explorer limitation.
 
-If used with SASS or Less respective modules have to be installed
+Bless build can be combined with Less and SASS preprocessors as well.
+
+Note: This package does NOT contain required modules. To ensure Bless build will work correctly, see Prerequesites section.
+
+Prerequisites
+----------
+[Node.js](http://nodejs.org/) and Blessc
+
+If used with Less or SASS respective modules have to be installed. For Less install node.js Less module. For SASS install it's ruby counterpart.
 
 Installing
 ----------
-download nad unpack to Sublime Text 2 Packages folder
+Download and unpack to Sublime Text 2 Packages folder or use Sublime Package manager (Searc for BlessCss)
