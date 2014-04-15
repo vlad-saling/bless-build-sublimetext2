@@ -7,7 +7,7 @@ On build Sublime Text calls [Bless](http://blesscss.com/), which checks CSS if n
 
 Bless build can be combined with Less and SASS preprocessors as well.
 
-Note: This package does NOT contain required modules. To ensure Bless build will work correctly, see Prerequesites section.
+Note: This package is build setup only. It does NOT contain required modules. To ensure Bless build will work correctly, see Prerequesites section.
 
 Prerequisites
 ----------
