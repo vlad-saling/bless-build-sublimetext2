@@ -17,4 +17,4 @@ If used with Less or SASS respective modules have to be installed. For Less inst
 
 Installing
 ----------
-Download and unpack to Sublime Text 2 Packages folder or use Sublime Package manager (Searc for BlessCss)
+Download and unpack to Sublime Text 2 Packages folder or use Sublime Package manager (Search for BlessCss)
