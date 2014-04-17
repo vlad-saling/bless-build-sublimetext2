@@ -1,0 +1,27 @@
+{
+ 
+    "cmd": ["sass --update ${file} --stop-on-error --no-cache --style compressed && blessc ${file_base_name}.css -f"],
+    "selector": "source.sass, source.scss",
+    "line_regex": "Line ([0-9]+):",
+ 
+    "linux":
+    {
+        "shell": "true"
+    },
+ 
+ 
+    "osx":
+    {
+        "path": "/usr/local/bin:$PATH",
+        "shell": "true"
+    },
+ 
+    "windows":
+    {
+        "cmd": ["sass", "--update", "$file", "--stop-on-error", "--no-cache", "--style", "compressed", "&", "blessc", "${file_base_name}.css", "-f"],
+        "shell": "true"
+    }
+ 
+ 
+ 
+}
